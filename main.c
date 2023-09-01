@@ -63,7 +63,6 @@ int main(int argc, char** argv){
 	printf("error! invalid loop!\n");
 	return 1;
     }
-    print_tree(koubun, 0);
     run_program(koubun);
     printf("\n");
     print_tape();
